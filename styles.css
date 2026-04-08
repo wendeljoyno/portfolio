@@ -15,7 +15,9 @@
 * {
   box-sizing: border-box;
 }
-
+.section-head.center{
+  display: none Im !important;
+}
 body {
   margin: 0;
   font-family: "Manrope", sans-serif;
@@ -650,22 +652,6 @@ a {
 .statement.light-block .accent {
   color: #2f7f4c;
   font-weight: 700;
-}
-
-.section-head.center {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-}
-
-.section-head.center h3 {
-  font-size: clamp(2rem, 4vw, 2.6rem);
-}
-
-.section-head.center p {
-  max-width: 620px;
-  font-size: 1.05rem;
 }
 
 .services.light-block .card-grid {
