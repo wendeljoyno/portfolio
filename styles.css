@@ -637,3 +637,17 @@ a {
     padding-top: 60px;
   }
 }
+
+.statement.light-block {
+  background: #f4f9f4;
+}
+
+.statement.light-block h2 {
+  font-weight: 600;
+  color: #4b4b4b;
+}
+
+.statement.light-block .accent {
+  color: #2f7f4c;
+  font-weight: 700;
+}
