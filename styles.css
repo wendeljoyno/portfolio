@@ -858,3 +858,13 @@ a {
   left: 0%;
   bottom: -10%;
 }
+
+/* Override status badge to show smile icon */
+.status-badge::after {
+  content: "??";
+  width: auto;
+  height: auto;
+  background: none;
+  box-shadow: none;
+  font-size: 18px;
+}
