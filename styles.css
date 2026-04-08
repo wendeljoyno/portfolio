@@ -708,3 +708,52 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* Right choice exact layout tweaks */
+.right-choice {
+  background: #062a2f;
+}
+
+.right-choice-head h3 {
+  color: #f3fbfa;
+  font-weight: 700;
+}
+
+.right-choice-head p {
+  color: #b9d0cc;
+}
+
+.choice-visual {
+  max-width: 700px;
+}
+
+.choice-photo {
+  border-radius: 22px;
+}
+
+.choice-badge {
+  border-radius: 14px;
+  font-size: 0.85rem;
+}
+
+.choice-badge.left {
+  left: -6%;
+  bottom: 28%;
+}
+
+.choice-badge.right {
+  right: -6%;
+  top: 22%;
+}
+
+.choice-metrics {
+  margin-top: 18px;
+}
+
+.choice-metrics .metric h4 {
+  color: #f3fbfa;
+}
+
+.choice-metrics .metric p {
+  color: #b9d0cc;
+}
