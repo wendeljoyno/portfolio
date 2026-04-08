@@ -757,3 +757,104 @@ a {
 .choice-metrics .metric p {
   color: #b9d0cc;
 }
+
+.work.light-block {
+  padding: 70px 0 90px;
+}
+
+.work-slider {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.work-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(240px, 1fr);
+  gap: 20px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.work-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 18px;
+  border: 1px solid #ececec;
+  box-shadow: 0 12px 28px rgba(15, 15, 15, 0.08);
+}
+
+.work-thumb {
+  height: 160px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  background-size: cover;
+  background-position: center;
+}
+
+.thumb-one { background-image: linear-gradient(135deg, #f6c0a8, #ffe5c1); }
+.thumb-two { background-image: linear-gradient(135deg, #f3d36b, #f9f4d2); }
+.thumb-three { background-image: linear-gradient(135deg, #9aa3ff, #c2c7ff); }
+.thumb-four { background-image: linear-gradient(135deg, #9cd9c1, #d9f3ea); }
+
+.slider-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  color: #333;
+  font-size: 22px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 900px) {
+  .work-slider {
+    grid-template-columns: 1fr;
+  }
+
+  .slider-btn {
+    display: none;
+  }
+
+  .work-track {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .work-card {
+    scroll-snap-align: start;
+  }
+}
+
+/* Hero badge + floating card refinements */
+.status-badge {
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(6, 28, 32, 0.65);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.status-badge::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #46d37b;
+  box-shadow: inset 0 0 0 4px rgba(6, 28, 32, 0.55);
+}
+
+.floating-card.success {
+  left: -14%;
+  top: 60%;
+}
+
+.floating-card.mission {
+  left: 0%;
+  bottom: -10%;
+}

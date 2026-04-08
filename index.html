@@ -47,6 +47,7 @@
           <div class="hero-visual">
             <div class="hero-photo">
               <img src="assets/pic.png" alt="Wendel Desabille" />
+              <span class="status-badge" aria-hidden="true"></span>
               
             </div>
             <div class="floating-card success">
@@ -167,40 +168,48 @@
         </div>
       </section>
 
-      <section class="work" id="work">
+            <section class="work light-block" id="work">
         <div class="container">
-          <div class="section-head">
+          <div class="section-head center">
             <h3>Selected Work</h3>
             <p>
-              A collection of websites I�ve built, focusing on clean design, user experience,
+              A collection of websites I’ve built, focusing on clean design, user experience,
               and helping businesses present themselves effectively online.
             </p>
           </div>
-          <div class="work-scroll">
-            <article class="work-card">
-              <span>Improved customer conversion</span>
-              <span>Improved online presence</span>
-              <h4>Maia's Kitchen</h4>
-              <p>Developed a user-friendly website to showcase menu offerings.</p>
-            </article>
-            <article class="work-card">
-              <span>Improved customer conversion</span>
-              <span>Improved online presence</span>
-              <h4>Honey Tree Food House</h4>
-              <p>Created a modern website that enhances brand presence.</p>
-            </article>
-            <article class="work-card">
-              <span>Improved customer conversion</span>
-              <span>Improved online presence</span>
-              <h4>Low Cost Sun Power</h4>
-              <p>Built a conversion-focused website for solar services.</p>
-            </article>
-            <article class="work-card">
-              <span>Improved customer conversion</span>
-              <span>Improved online presence</span>
-              <h4>Property Specialist Ramil D.</h4>
-              <p>Designed a real estate website that supports lead generation.</p>
-            </article>
+          <div class="work-slider" aria-label="Selected work slider">
+            <button class="slider-btn prev" type="button" aria-label="Previous">‹</button>
+            <div class="work-track" id="workTrack">
+              <article class="work-card">
+                <div class="work-thumb thumb-one"></div>
+                <span>Improved customer conversion</span>
+                <span>Improved online presence</span>
+                <h4>Maia's Kitchen</h4>
+                <p>Developed a user-friendly website to showcase menu offerings.</p>
+              </article>
+              <article class="work-card">
+                <div class="work-thumb thumb-two"></div>
+                <span>Improved customer conversion</span>
+                <span>Improved online presence</span>
+                <h4>Honey Tree Food House</h4>
+                <p>Created a modern website that enhances brand presence.</p>
+              </article>
+              <article class="work-card">
+                <div class="work-thumb thumb-three"></div>
+                <span>Improved customer conversion</span>
+                <span>Improved online presence</span>
+                <h4>Low Cost Sun Power</h4>
+                <p>Built a conversion-focused website for solar services.</p>
+              </article>
+              <article class="work-card">
+                <div class="work-thumb thumb-four"></div>
+                <span>Improved customer conversion</span>
+                <span>Improved online presence</span>
+                <h4>Property Specialist Ramil D.</h4>
+                <p>Designed a real estate website that supports lead generation.</p>
+              </article>
+            </div>
+            <button class="slider-btn next" type="button" aria-label="Next">›</button>
           </div>
         </div>
       </section>
@@ -330,5 +339,6 @@
       </div>
       <div class="footer-bottom">� 2026 Wendel Desabille. All rights reserved.</div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
