@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color-scheme: dark;
   --bg: #062a2f;
   --bg-deep: #031b1f;
@@ -859,12 +859,11 @@ a {
   bottom: -10%;
 }
 
-/* Override status badge to show smile icon */
+/* Override status badge to show green smile icon */
 .status-badge::after {
-  content: "??";
-  width: auto;
-  height: auto;
-  background: none;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2346d37b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='9'/><path d='M8 14s1.5 2 4 2 4-2 4-2'/><path d='M9 9h.01'/><path d='M15 9h.01'/></svg>") no-repeat center / contain;
   box-shadow: none;
-  font-size: 18px;
 }
