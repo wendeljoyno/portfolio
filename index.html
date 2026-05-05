@@ -1,358 +1,335 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wendel Desabille - Portfolio</title>
+    <title>Wendel Desabille | WordPress Web Designer and Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Wendel Desabille is a WordPress web designer and developer creating SEO-friendly, conversion-focused websites for real estate professionals and local businesses."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1b2238" />
+    <link rel="canonical" href="https://www.wendeldesabille.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wendel Desabille | WordPress Web Designer and Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Conversion-focused WordPress websites for real estate professionals and local businesses."
+    />
+    <meta property="og:url" content="https://www.wendeldesabille.com/" />
+    <meta property="og:image" content="https://www.wendeldesabille.com/assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wendel Desabille | WordPress Web Designer and Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="SEO-friendly WordPress websites built to increase trust, visibility, and leads."
+    />
+    <meta name="twitter:image" content="https://www.wendeldesabille.com/assets/og-image.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="apple-touch-icon" href="assets/icon-192.png" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "name": "Wendel Desabille",
+            "jobTitle": "WordPress Web Designer and Developer",
+            "url": "https://www.wendeldesabille.com/",
+            "image": "https://www.wendeldesabille.com/assets/pic.png",
+            "email": "mailto:wendeldesabille382@gmail.com",
+            "knowsAbout": ["WordPress development", "Web design", "SEO", "UX design", "Lead generation"]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What type of websites does Wendel Desabille build?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Wendel Desabille builds WordPress websites for real estate professionals, local businesses, service companies, and brands that need stronger design, clearer messaging, and better lead generation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Wendel Desabille offer SEO-friendly website design?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. His website process includes SEO-friendly content structure, user-focused page flow, and conversion-focused design to improve visibility and usability."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
-  <body>
+  <body data-page="home">
+    <span class="disco-ball" aria-hidden="true"></span>
+    <span class="music-gif-left" aria-hidden="true"></span>
+    <span class="disco-ball-right" aria-hidden="true"></span>
     <header class="site-header">
       <div class="container nav">
-        <a class="brand" href="#hero">Wendel</a>
-        <nav class="nav-links">
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#about">About</a>
+        <a class="brand" href="index.html">Wendel</a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="work.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
         </nav>
-        <a class="button ghost" href="#contact">Contact Me</a>
+        <a class="button ghost nav-cta" href="contact.html">Let's Talk</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav" aria-label="Mobile">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="work.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
       </div>
     </header>
 
     <main>
-            <section class="hero" id="hero">
-        <div class="hero-bg" aria-hidden="true"></div>
+      <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <h1>Wendel Desabille</h1>
-            <h2>Web Designer/Developer</h2>
-            <p>
-              Self-taught and Dedicated WordPress Developer with over 5 years of experience in
-              developing WordPress Application. Skilled in designing and developing website in
-              all technical aspect of CMS or shall we say Content Management System, with
-              expertise in front-end development. Passionate about learning new technologies.
+            <p class="eyebrow">WordPress Web Designer and Developer</p>
+            <h1>WordPress websites for real estate and local businesses that want more leads.</h1>
+            <p class="lead">
+              I'm Wendel Desabille, a WordPress web designer and developer who builds SEO-friendly,
+              conversion-focused websites for real estate professionals, service businesses, and
+              local brands that want a stronger online presence.
             </p>
             <div class="hero-actions">
-              <a class="button" href="#contact">Work With Me</a>
-              <a class="button ghost" href="#">View My Resume</a>
+              <a class="button" href="work.html">See My Work</a>
+              <a class="text-link" href="contact.html">Request a Website Quote</a>
             </div>
           </div>
+
           <div class="hero-visual">
             <div class="hero-photo">
-              <img src="assets/pic.png" alt="Wendel Desabille" />
-              <span class="status-badge" aria-hidden="true"></span>
-              
+              <img src="assets/pic.png" alt="Portrait of Wendel Desabille, WordPress web designer and developer" />
             </div>
-            <div class="floating-card success">
-              <span class="chip">🏆</span>
-              <div>
-                <p>15+ Success Stories</p>
-              </div>
+            <div class="floating-card top">
+              <span class="metric-label">Experience</span>
+              <strong>5+ years of WordPress website work</strong>
             </div>
-            <div class="floating-card mission">
-              <span class="chip">⚡</span>
-              <div>
-                <p>Your Growth, My Mission</p>
-                <strong>ROI Boost</strong>
-              </div>
+            <div class="floating-card bottom">
+              <span class="metric-label">Focus</span>
+              <strong>SEO-friendly websites built for trust and lead generation</strong>
             </div>
           </div>
         </div>
       </section>
 
-            <section class="statement light-block">
-        <div class="container">
+      <section class="statement light-section" id="value">
+        <div class="container narrow">
           <h2>
-            I Build <span class="accent">High-Converting Websites</span> for Real Estate
-            & Local Businesses. Helping brands turn <span class="accent">traffic</span>
-            into <span class="accent">leads</span>, inquiries, and <span class="accent">real sales</span>.
+            I design SEO-friendly websites for real estate and local businesses, helping turn
+            website visitors into qualified leads, inquiries, and paying customers.
           </h2>
         </div>
       </section>
 
-      <section class="services light-block" id="services">
+      <section class="preview-section" id="services-overview">
         <div class="container">
-          <div class="section-head">\n            <h3>What I Can Do</h3>\n            <p>Practical skills and services I bring to help businesses grow and improve their digital presence.</p>\n          </div>\n          <div class="card-grid">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">What I Do</p>
+              <h2>Web design, WordPress development, and SEO support built for growth.</h2>
+            </div>
+            <a class="text-link" href="services.html">View all services</a>
+          </div>
+
+          <div class="card-grid">
             <article class="service-card">
               <span class="icon">WD</span>
-              <h4>Web Design</h4>
-              <p>
-                Build clean, responsive websites that effectively present businesses and
-                improve user experience across devices.
-              </p>
+              <h3>Web Design</h3>
+              <p>Create responsive business websites that look professional and guide visitors clearly.</p>
             </article>
             <article class="service-card">
               <span class="icon">UX</span>
-              <h4>UX & Digital Content</h4>
-              <p>
-                Apply user-focused thinking and create structured digital content that improves
-                usability and engagement.
-              </p>
-            </article>
-            <article class="service-card">
-              <span class="icon">BS</span>
-              <h4>Business Solutions</h4>
-              <p>
-                Apply user-focused thinking and create structured digital content that improves
-                usability and engagement.
-              </p>
-            </article>
-            <article class="service-card">
-              <span class="icon">SL</span>
-              <h4>Sales & Lead Generation</h4>
-              <p>
-                Use communication and strategy to connect with clients, generate leads, and
-                close opportunities.
-              </p>
+              <h3>UX and Website Content</h3>
+              <p>Improve page structure, messaging, and user flow so visitors stay engaged longer.</p>
             </article>
             <article class="service-card">
               <span class="icon">SEO</span>
-              <h4>SEO & Online Visibility</h4>
-              <p>
-                Optimize websites and content to improve search visibility and help businesses
-                reach the right audience.
-              </p>
-            </article>
-            <article class="service-card">
-              <span class="icon">CR</span>
-              <h4>Product & Market Research</h4>
-              <p>
-                Analyze trends, competitors, and customer demand to identify opportunities and
-                support business decisions.
-              </p>
+              <h3>SEO Visibility</h3>
+              <p>Build search-friendly pages that help the right customers find your business online.</p>
             </article>
           </div>
         </div>
       </section>
 
-            <section class="right-choice" id="about">
-        <div class="container">
-          <div class="right-choice-head">
-            <h3>Why I'm the right choice</h3>
-            <p>
-              I bring a combination of technical skills, real-world experience, and a
-              results-driven mindset to every project.
-            </p>
-          </div>
-          <div class="choice-visual">
-            <div class="choice-photo">
-              <img src="assets/pic.png" alt="Wendel Desabille" />
-            </div>
-            <div class="choice-badge left">8 Years of Experience</div>
-            <div class="choice-badge right">
-              <span>Adaptable</span>
-              <small>Experience across tech, BPO, UX, and real estate</small>
-            </div>
-          </div>
-          <div class="choice-metrics">
-            <div class="metric">
-              <h4>Hybrid Skill Set</h4>
-              <p>Sales, UX, and Digital Marketing</p>
-            </div>
-            <div class="metric">
-              <h4>Proven Results</h4>
-              <p>Closed 2 deals in 1 day within 21 days</p>
-            </div>
-            <div class="metric">
-              <h4>Hands-On Experience</h4>
-              <p>Websites, SEO, content, and domains</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-                  <section class="work light-block" id="work">
-        <div class="container">
-          <div class="section-head center">
-            <h3>Selected Work</h3>
-            <p>
-              A collection of websites I’ve built, focusing on clean design, user experience,
-              and helping businesses present themselves effectively online.
-            </p>
-          </div>
-          <div class="work-slider" aria-label="Selected work slider">
-            <button class="slider-btn prev" type="button" aria-label="Previous">‹</button>
-            <div class="work-track" id="workTrack">
-              <article class="work-card">
-                <div class="work-media yellow">
-                  <div class="tag-row">
-                    <span class="tag">Improved online presence</span>
-                    <span class="tag">Improved customer conversion</span>
-                  </div>
-                </div>
-                <h4>Honey Tree Food House</h4>
-                <p>Created a modern website that enhances brand presence and improves product presentation.</p>
-              </article>
-              <article class="work-card">
-                <div class="work-media solar">
-                  <span class="badge">Electrical Fixed</span>
-                  <div class="tag-row">
-                    <span class="tag">Improved online presence</span>
-                    <span class="tag">Improved customer conversion</span>
-                  </div>
-                </div>
-                <h4>Low Cost Sun Power</h4>
-                <p>Built a conversion-focused website to clearly communicate solar services and attract potential clients.</p>
-              </article>
-              <article class="work-card">
-                <div class="work-media property">
-                  <span class="badge light">Megaworld Corporation</span>
-                  <div class="tag-row">
-                    <span class="tag">Improved online presence</span>
-                    <span class="tag">Improved customer conversion</span>
-                  </div>
-                </div>
-                <h4>Property Specialist Ramil D.</h4>
-                <p>Designed a real estate website that improves property visibility and supports lead generation.</p>
-              </article>
-              <article class="work-card">
-                <div class="work-media kitchen">
-                  <div class="tag-row">
-                    <span class="tag">Improved online presence</span>
-                    <span class="tag">Improved customer conversion</span>
-                  </div>
-                </div>
-                <h4>Maia's Kitchen</h4>
-                <p>Developed a user-friendly website to showcase menu offerings and increase customer interest.</p>
-              </article>
-            </div>
-            <button class="slider-btn next" type="button" aria-label="Next">›</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="standout">
+      <section class="preview-section light-section" id="results">
         <div class="container">
           <div class="section-head">
-            <h3>Why I Stand Out</h3>
-            <p>Here�s how I bring more value, flexibility, and real-world results.</p>
-          </div>
-          <div class="standout-grid">
-            <div class="standout-card">
-              <h4>Typical Candidates</h4>
-              <ul>
-                <li>Focus on a single skill</li>
-                <li>Limited understanding of users and business goals</li>
-                <li>Rely on theory without real-world application</li>
-                <li>Minimal experience across different industries</li>
-                <li>Struggle to adapt to fast-changing environments</li>
-              </ul>
-            </div>
-            <div class="standout-card highlight">
-              <h4>Wendel</h4>
-              <ul>
-                <li>Hybrid skill set: Sales + UX + Digital Marketing</li>
-                <li>Strong understanding of user experience and business results</li>
-                <li>Proven experience across tech, BPO, UX, and real estate</li>
-                <li>Fast learner who adapts quickly to new tools and industries</li>
-                <li>Results-driven mindset with clear wins</li>
-              </ul>
+            <div>
+              <p class="eyebrow">Quick Wins</p>
+              <h2>What a stronger website can do for your business.</h2>
             </div>
           </div>
+
+          <div class="stats-grid">
+            <article class="stat-card light-card">
+              <span>Trust</span>
+              <strong>Stronger First Impressions</strong>
+              <p>A clear layout and polished website design help potential customers trust your business faster.</p>
+            </article>
+            <article class="stat-card light-card">
+              <span>Clarity</span>
+              <strong>Better Messaging</strong>
+              <p>Your services, offer, and value become easier for searchers and customers to understand.</p>
+            </article>
+            <article class="stat-card light-card">
+              <span>Action</span>
+              <strong>More Useful Leads</strong>
+              <p>Better calls to action make it easier for visitors to contact you, inquire, or book.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="testimonials" id="testimonials">
+      <section class="preview-section dark-section" id="featured-work">
         <div class="container">
           <div class="section-head">
-            <h3>What My Clients Say</h3>
-            <p>My clients� words reflect my commitment to excellence.</p>
+            <div>
+              <p class="eyebrow">Selected Projects</p>
+              <h2>Website projects focused on trust, visibility, and lead generation.</h2>
+            </div>
+            <a class="text-link light" href="work.html">Browse projects</a>
           </div>
-          <div class="testimonial-grid">
-            <article class="testimonial">
-              <p>
-                Wendel created a clean and professional website that clearly presents my property
-                listings.
-              </p>
-              <h5>Ramil D.</h5>
-              <span>Senior Property Specialist</span>
+
+          <div class="project-grid compact">
+            <article class="project-card">
+              <p class="project-type">Restaurant Website</p>
+              <h3>Maia's Kitchen</h3>
+              <p>Created a restaurant website that presents menu offerings clearly and improves customer discovery.</p>
             </article>
-            <article class="testimonial">
-              <p>
-                I�m very satisfied with the website Axel built for my solar business. It looks
-                professional and communicates our services clearly.
-              </p>
-              <h5>Renato P.</h5>
-              <span>Businessman</span>
+            <article class="project-card">
+              <p class="project-type">Solar Services</p>
+              <h3>Low Cost Sun Power</h3>
+              <p>Built a solar services website designed to explain offerings clearly and support lead generation.</p>
             </article>
-            <article class="testimonial">
-              <p>
-                Wendel did a great job bringing our brand online. The design is modern and
-                visually appealing.
-              </p>
-              <h5>Bryan Y.</h5>
-              <span>Businessman</span>
-            </article>
-            <article class="testimonial">
-              <p>
-                The website Wendel created is simple, clean, and user-friendly for our menu and
-                offerings.
-              </p>
-              <h5>Maia B.</h5>
-              <span>Chef</span>
+            <article class="project-card">
+              <p class="project-type">Real Estate</p>
+              <h3>Property Specialist Ramil D.</h3>
+              <p>Designed a real estate website that strengthens credibility and encourages property inquiries.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="faq" id="faq">
-        <div class="container">
-          <div class="section-head">
-            <h3>Frequently Asked Questions</h3>
-            <p>Quick answers about my experience, skills, and how I can contribute.</p>
-          </div>
-          <div class="faq-list">
-            <div class="faq-item">What roles are you currently open to?</div>
-            <div class="faq-item">What makes you different from other candidates?</div>
-            <div class="faq-item">Do you have experience working with clients?</div>
-            <div class="faq-item">What tools and platforms do you use?</div>
-            <div class="faq-item">Are you open to freelance or project-based work?</div>
-            <div class="faq-item">How do you approach your work?</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="cta" id="contact">
-        <div class="container cta-card">
+      <section class="preview-section" id="process">
+        <div class="container feature-split">
           <div>
-            <h3>Let's Work Together</h3>
-            <p>
-              I'm currently open to opportunities in sales, digital marketing, and UX-related
-              roles. If you're looking for someone who can combine business and user-focused
-              thinking, let's connect.
+            <p class="eyebrow">Why Work With Me</p>
+            <h2>A practical mix of WordPress development, UX, SEO, and sales awareness.</h2>
+            <p class="section-copy">
+              I bring more than design alone. My background helps me think about search visibility,
+              user behavior, business goals, and how a website can support real results.
             </p>
+            <a class="button" href="about.html">More About Me</a>
           </div>
-          <a class="button" href="mailto:wendeldesabille382@gmail.com">Contact Me</a>
+
+          <div class="stacked-cards">
+            <article class="info-card">
+              <h3>Hybrid Skill Set</h3>
+              <p>Sales, UX, digital marketing, and hands-on WordPress development.</p>
+            </article>
+            <article class="info-card">
+              <h3>Results-Driven</h3>
+              <p>Focused on websites that do more than look good and actually support growth.</p>
+            </article>
+            <article class="info-card">
+              <h3>Quick to Adapt</h3>
+              <p>Comfortable learning tools, industries, and workflows as projects evolve.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="preview-section light-section" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Frequently Asked Questions</p>
+              <h2>Common questions about WordPress web design and website support.</h2>
+            </div>
+          </div>
+
+          <div class="faq-grid">
+            <article class="faq-item">
+              <h3>What type of businesses do you work with?</h3>
+              <p>I mostly work with real estate professionals, service businesses, and local brands that need stronger websites and clearer messaging.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Do you only build new websites?</h3>
+              <p>No. I can also improve existing websites with redesign support, better UX, stronger calls to action, and clearer content structure.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Can you help with SEO-friendly content?</h3>
+              <p>Yes. I help organize pages, headings, messaging, and page flow so the website is easier for both users and search engines to understand.</p>
+            </article>
+            <article class="faq-item">
+              <h3>How do I get started?</h3>
+              <p>Send a short message with your business type, goals, and the kind of website support you need. I can then suggest the next step.</p>
+            </article>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
+      <div class="container footer-cta">
+        <div>
+          <p class="eyebrow">Ready to Build</p>
+          <h2>Let’s create a business website that looks better, ranks better, and converts better.</h2>
+          <p>Tell me about your business, website goals, and timeline to get started.</p>
+        </div>
+        <a class="button" href="contact.html">Start a Project</a>
+      </div>
+
       <div class="container footer-grid">
         <div>
           <div class="brand">Wendel</div>
-          <p>I'm open to opportunities, collaborations, and new connections.</p>
+          <p>WordPress web design, UX improvements, and SEO-friendly websites for businesses that want stronger online results.</p>
         </div>
         <div>
-          <h6>Sections</h6>
-          <a href="#services">Services</a>
-          <a href="#testimonials">Testimonials</a>
+          <h3>Pages</h3>
+          <a href="services.html">Services</a>
+          <a href="work.html">Portfolio</a>
+          <a href="about.html">About</a>
         </div>
         <div>
-          <h6>Information</h6>
-          <a href="#faq">FAQ's</a>
-          <a href="#contact">Contact</a>
+          <h3>Contact</h3>
+          <a href="mailto:wendeldesabille382@gmail.com">wendeldesabille382@gmail.com</a>
+          <a href="contact.html">Project inquiry form</a>
         </div>
       </div>
-      <div class="footer-bottom">� 2026 Wendel Desabille. All rights reserved.</div>
+      <div class="footer-bottom">
+        <span id="year"></span> Wendel Desabille. All rights reserved.
+      </div>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
