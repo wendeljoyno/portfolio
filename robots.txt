@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.wendeldesabille.com/sitemap.xml
+Sitemap: https://portfolio-kierwa.vercel.app/sitemap.xml
